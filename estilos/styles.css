@@ -31,23 +31,23 @@ grid-area: footer;
 /*header*/
 .headerimg
 {
-  margin: 1em;
+  margin: 1rem;
   margin-right: 0;
-  width: 4em;
-  height: 4em;
-  border-radius: 1.5em;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1.5rem;
 }
 .headerimg:hover
 {
   transition: all 0.2s ease-in;
-  width: 4.5em;
-  height: 4.5em;
+  width: 4.5rem;
+  height: 4.5rem;
 }
 .container-head
 {
   position: fixed;
   display: flex;
-  height: 7em;
+  height: 7rem;
   width: 100%;
   background-color: #2E000F;
   border-style: solid;
@@ -62,7 +62,7 @@ grid-area: footer;
   display: block;
   width: 25%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 800;
   color: #997744;
   font-style: italic;
@@ -74,7 +74,7 @@ grid-area: footer;
   position: relative;
   gap: 10%;
   width: 100%;
-  height: 4em;
+  height: 4rem;
   margin: 0;
   padding: 0;
   background-color: none;
@@ -86,11 +86,11 @@ grid-area: footer;
   width: 35%;
   background-color: #55000F;
   margin: 0;
-  padding: 1em;
+  padding: 1rem;
   border-style: solid;
-  border-width: .1em;
+  border-width: .1rem;
   border-color: #000000;
-  border-radius: .7em;
+  border-radius: .7rem;
   align-content: center;
   color: #CCCCCC;
 }
@@ -103,14 +103,14 @@ grid-area: footer;
 #barradebusqueda
 {
   width: 90%;
-  height: 3em;
+  height: 3rem;
   position: relative;
   left: 3%;
   border-style: solid;
   border-color: #000000;
-  border-radius: .75em;
-  border-width: .1em;
-  padding: 1em;
+  border-radius: .75rem;
+  border-width: .1rem;
+  padding: 1rem;
   background-color: #5E222F;
 }
 .navitem2
@@ -120,10 +120,10 @@ grid-area: footer;
   display: flex;
   width: 50%;
   align-content: center;
-  padding: 1em;
+  padding: 1rem;
   background-color: none;
   color: #CCCCCC;
-  font-size: 1em;
+  font-size: 1rem;
 }
 #menu1, #menu2, #menu3, #menu4
 {
@@ -139,7 +139,7 @@ grid-area: footer;
 {
   .tituloprincipal
   {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
   .headernav  
   {
@@ -189,26 +189,26 @@ grid-area: footer;
 /*Contenido de la sección principal*/
 .mainsection
 {
-  margin-top: 10em;
+  margin-top: 10rem;
   position: relative;
   background-color: #3E000F;
   width: 100%;
   height: auto;
   color: #CCCCCC;
-  margin: 1.5em;
-  padding: 1.5em;
-  padding-bottom: 6em;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  padding-bottom: 6rem;
   border-style: solid;
   border-color: #000000;
-  border-width: .2em;
+  border-width: .2rem;
 }
 .section1
 {
   width: 70%;
   position: relative;
   left: 10%;
-  padding: 1em;
-  padding-left: 1.5em;
+  padding: 1rem;
+  padding-left: 1.5rem;
   border-style: solid;
   border-color: #111111;
   background-color: #44121F;
@@ -216,16 +216,16 @@ grid-area: footer;
 .maintitle
 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   font-weight: 600;
   font-style: italic;
   color: #8A333C;
-  padding: .25em;
+  padding: .25rem;
   position: relative;
   left: 37%;
   border-style: solid;
-  border-radius: .3em;
-  border-width: .1em;
+  border-radius: .3rem;
+  border-width: .1rem;
   border-color: #2E000F;
   width: fit-content;
 }
@@ -241,14 +241,14 @@ grid-area: footer;
   display: grid;
   grid-template: 1fr 1fr 1fr/1fr 1fr 1fr 1fr;
   grid-gap: 3%;
-  padding: 1em;
-  padding-left: 3em;
+  padding: 1rem;
+  padding-left: 3rem;
 }
 @media screen and (max-width: 958px) 
 {
   .mainsection
   {
-   padding-bottom: 14em;
+   padding-bottom: 14rem;
    width: 90%;
   }
   .maintitle
@@ -267,14 +267,14 @@ grid-area: footer;
   }
   .gridimg
   {
-    max-width: 7em;
+    max-width: 7rem;
   }
 }
 @media screen and (max-width: 858px)
 {
   .mainsection
   {
-   padding-bottom: 16em;
+   padding-bottom: 16rem;
   }
   .maintitle
   {
@@ -283,11 +283,11 @@ grid-area: footer;
   .maingridarea
   {
     grid-template: 1fr 1fr/1fr 1fr;
-    padding-left: 1em;
+    padding-left: 1rem;
   }
   .gridimg
   {
-    max-width: 6em;
+    max-width: 6rem;
   }
 }
 
@@ -302,7 +302,7 @@ grid-area: footer;
 {
   color: #998855;
   font-weight: 800;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   position: relative;
   left: 15%;
 }
@@ -311,8 +311,8 @@ grid-area: footer;
   position: relative;
   top: 10%;
   left: 25%;
-  margin: 1em;
-  padding: 2em;
+  margin: 1rem;
+  padding: 2rem;
   width: 45%;
   border-color: #000000;
   background-color: #5E222F;
@@ -323,7 +323,7 @@ grid-area: footer;
   display: grid;
   grid-template-rows: 1fr;
   gap: 2%;
-  padding-bottom: 2em;
+  padding-bottom: 2rem;
 }
 .gridsideitem
 {
@@ -335,7 +335,7 @@ iframe
   width: 50%;
   position: relative;
   left: 32%;
-  top: 10em;
+  top: 10rem;
 }
 
 @media screen and (max-width: 958px) 
@@ -347,7 +347,7 @@ iframe
   }
   .secondtitle
   {
-    font-size: 1em;
+    font-size: 1rem;
 
   }
 }
@@ -360,7 +360,7 @@ iframe
   .secondtitle
   {
     position: relative;
-    left: -1em;
+    left: -1rem;
   }
 }
 
@@ -373,7 +373,7 @@ iframe
   width: 100%;
   height: 100%;
   border-top-style: solid;
-  border-width: .1em;
+  border-width: .1rem;
   border-top-color: #997744;
   background-color: #111111;
   color: #EEEEEE;
@@ -384,7 +384,7 @@ iframe
   top: 30%;
   width: fit-content;
   height: fit-content;
-  padding: .7em;
+  padding: .7rem;
 }
 @media screen and (max-width: 958px) 
 {
@@ -393,13 +393,13 @@ iframe
     display: grid;
     grid-template: 1fr 1fr 1fr/1fr 1fr;
     height: 100%;
-    padding-bottom: 2em;
+    padding-bottom: 2rem;
     justify-items: left;
   }
   .footeritem
   {
     left: 20%;
-    padding: 1em;
+    padding: 1rem;
   }
 }
 @media screen and (max-width: 858px)
@@ -407,7 +407,7 @@ iframe
   .footeritem
   {
     left: 10%;
-    padding: 1em;
+    padding: 1rem;
   }
 }
 
